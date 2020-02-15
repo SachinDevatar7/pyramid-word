@@ -10,4 +10,13 @@ Rest API is used to check whether a word is a pyramid word or not.
 
 ## Requirements
  - Python >= 3.5.2
- - See [requirements.txt](https://github.com/SachinDevatar7/pyramid-word/blob/master/requirements.txt) for python package requirements. 
+ - See [requirements.txt](https://github.com/SachinDevatar7/pyramid-word/blob/master/requirements.txt) for python package requirements.
+ 
+ 
+## Running the application
+
+ Assuming that Python >= 3.5.2 (preferably 3.6.8) is installed
+ - Install the python packages required to run the application using:
+```python
+(py3) pip install -r requirements.txt -U
+```
