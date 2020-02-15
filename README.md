@@ -31,7 +31,7 @@ $ python test_app.py
 
 ## REST API Endpoints
 
- - `http://localhost:8000/is_pyramid_word?word=<word_to_be_checked>` - it will check wheather it is a pyramid or not based on the user input.
+ - `http://localhost:8000/is_pyramid_word?word=<word_to_be_checked>` - `GET` - it will check wheather it is a pyramid or not based on the user input.
  
  
  ## Examples
