@@ -22,3 +22,14 @@ Rest API is used to check whether a word is a pyramid word or not.
 ```
 
 - Application can be accessed at http://localhost:8000
+
+
+## REST API Endpoints
+
+ - http://localhost:8000/is_pyramid_word?word=<word> - it will check wheather it is a pyramid or not based on the user input.
+ 
+ - http://localhost:8000/is_pyramid_word?word=banana - It will return "true" as it is a pyramid.
+ 
+ - http://localhost:8000/is_pyramid_word?word=bandana - it will return "false" as it is not a pyramid.
+ 
+ - http://localhost:8000/is_pyramid_word?word= - it will return 400 Bad Request due to bad request.
