@@ -20,3 +20,5 @@ Rest API is used to check whether a word is a pyramid word or not.
 ```python
 (py3) pip install -r requirements.txt -U
 ```
+
+- Application can be accessed at http://localhost:8000
