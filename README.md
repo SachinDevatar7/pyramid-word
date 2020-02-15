@@ -23,6 +23,12 @@ Rest API is used to check whether a word is a pyramid word or not.
 $ python -m pip install -r requirements.txt -U
 ```
 
+- Run the api using:
+
+```bash
+$ python test_app.py
+```
+
 ## REST API Endpoints
 
  - `http://localhost:8000/is_pyramid_word?word=<word>` - it will check wheather it is a pyramid or not based on the user input.
